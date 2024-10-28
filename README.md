@@ -13,7 +13,7 @@ Como buenos hábitos y costumbre he dividido el contenido de carpetas y archivos
 - **Public**
   - Aquí se guardan los recursos públicos como archivos CSS, iconos o imágenes que se visualizan en las interfaces, esta es una ubicación pública, por lo cual, no se deberían colocar archivos sensibles.
 - **View**
-  - Aqui se encuentran los archivos que se renderizan en el navegador, es decir, la interfaz que se encuentra escrita en lenguaje de marcado HTML.
+  - Aqui se encuentran los archivos que se renderizan en el navegador, es decir, la interfaz que se encuentra escrita en lenguaje de marcado HTML. El renderizado de la plantilla se realiza mediante un mini motor que he creado.
 - **Index**
   - Archivo principal que define la página que se muestra de forma predeterminada al acceder a la pagina o sitio web.
 
