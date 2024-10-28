@@ -1,4 +1,4 @@
-<h1 align="left" width="100%"> :cloud_with_rain: EL CLIMA <img align="right" src="https://skillicons.dev/icons?i=vscode,php,html,css,js" height="37"> </h1>
+<h1 align="left" width="100%"> :cloud_with_rain: EL CLIMA <img align="right" src="https://skillicons.dev/icons?i=vscode,php,html,css,js,github,git" height="37"> </h1>
 
 ## :pen: Acerca de este proyecto
 
