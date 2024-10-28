@@ -6,7 +6,7 @@ Este es un sencillo diseño de una tarjeta que muestra datos sobre el clima de f
 
 ## :hammer: Estructura del contenido
 
-Como buenos hábitos y costumbre he dividido el contenido de carpetas y archivos teniendo en consideracion el patron de arquitectura Modelo-Vista-Controlador:
+Como buenos hábitos y costumbre he dividido el contenido de carpetas y archivos teniendo en consideracion el patrón de arquitectura Modelo-Vista-Controlador:
 
 - **Controller**
   - Se almacenan los archivos vitales para el funcionamiento de cada vista, estos archivos pueden contener distintos métodos habilidados para cada interfaz de manera independiente.
