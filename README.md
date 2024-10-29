@@ -2,7 +2,7 @@
 
 ## :pen: Acerca de este proyecto
 
-Este es un sencillo diseño de una tarjeta que muestra datos sobre el clima de forma agradable y clara, la he realizado con fines prácticos usando PHP, HTML, CSS y JavaScript.
+Este es el diseño de una tarjeta que muestra datos sobre el clima de forma agradable y clara, la he realizado con fines prácticos usando PHP, HTML, CSS y JavaScript.
 
 ## :hammer: Estructura del contenido
 
