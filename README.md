@@ -21,7 +21,7 @@ Como buenos hábitos y costumbre he dividido el contenido de carpetas y archivos
 
 ## :package: Resultados
 <p align="center">
-  <img src="https://raw.githubusercontent.com/samoel-andres/tarjeta-clima/main/public/evidence/weather.JPG" alt="Vista de la tarjeta">
+  <img src="https://raw.githubusercontent.com/samoel-andres/tarjeta-clima/main/public/evidence/weather.JPG" alt="Tarjeta del clima">
 </p>
 
 ## :pen: Conclusión
