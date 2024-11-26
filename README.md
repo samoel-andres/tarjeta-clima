@@ -1,4 +1,6 @@
-<h1 align="left" width="100%"> :cloud_with_rain: EL CLIMA <img align="right" src="https://skillicons.dev/icons?i=vscode,php,html,css,js,github,git" height="37" alt="Tecnologias"> </h1>
+<h1 align="left" width="100%"> :cloud_with_rain: EL CLIMA </h1>
+
+<br><img align="left" src="https://skillicons.dev/icons?i=vscode,php,html,css,js,github,git" height="37" alt="Tecnologias"><br><br>
 
 ## :pen: Acerca de este proyecto
 
@@ -19,7 +21,7 @@ Como buenos hábitos y costumbre he dividido el contenido de carpetas y archivos
 
 ## :package: Resultados
 <p align="center">
-  <img src="https://raw.githubusercontent.com/samoel-andres/tarjeta-clima/main/public/evidence/weather.JPG" alt="Vista de la tarjeta">
+  <img src="https://raw.githubusercontent.com/samoel-andres/tarjeta-clima/main/public/evidence/weather.JPG" alt="Tarjeta del clima">
 </p>
 
 ## :pen: Conclusión
