@@ -2,7 +2,7 @@
 
 class View
 {
-    public static function view($template)
+    public static function view($template, $variables = array())
     {
         $path = 'view/' . $template;
 
