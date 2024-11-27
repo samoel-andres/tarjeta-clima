@@ -6,6 +6,8 @@
 
 **Tarjeta Clima** es una aplicación web que muestra la información meteorológica actual y pronóstico a corto plazo. El proyecto hace uso de la API de OpenWeather para obtener datos meteorológicos, los cuales son luego procesados y presentados en una interfaz amigable.
 
+![Interfaz de la tarjeta](public/evidence/weather.JPG)
+
 ## Características
 
 - Muestra el clima actual de una ubicación especificada.
