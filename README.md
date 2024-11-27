@@ -1,29 +1,72 @@
-<h1 align="left" width="100%"> :cloud_with_rain: EL CLIMA </h1>
+# Tarjeta Clima
 
 <br><img align="left" src="https://skillicons.dev/icons?i=vscode,php,html,css,js,github,git" height="37" alt="Tecnologias"><br><br>
 
-## :pen: Acerca de este proyecto
+## Descripción
 
-Este es el diseño de una tarjeta que muestra datos sobre el clima de forma agradable y clara, la he realizado con fines prácticos usando PHP, HTML, CSS y JavaScript.
+**Tarjeta Clima** es una aplicación web que muestra la información meteorológica actual y pronóstico a corto plazo. El proyecto hace uso de la API de OpenWeather para obtener datos meteorológicos, los cuales son luego procesados y presentados en una interfaz amigable.
 
-## :hammer: Estructura del contenido
+## Características
 
-Como buenos hábitos y costumbre he dividido el contenido de carpetas y archivos teniendo en consideracion el patrón de arquitectura Modelo-Vista-Controlador:
+- Muestra el clima actual de una ubicación especificada.
+- Muestra el pronóstico meteorológico de los próximos días.
+- Información detallada: temperatura, humedad, viento, visibilidad, y descripción del clima.
+- Cambio de ubicación: permite cambiar la ciudad para ver el clima en tiempo real de diferentes lugares.
+  
+## Tecnologías Utilizadas
 
-- **Controller**
-  - Se almacenan los archivos vitales para el funcionamiento de cada vista, estos archivos pueden contener distintos métodos habilidados para cada interfaz de manera independiente.
-- **Public**
-  - Aquí se guardan los recursos públicos como archivos CSS, iconos o imágenes que se visualizan en las interfaces, esta es una ubicación pública, por lo cual, no se deberían colocar archivos sensibles.
-- **View**
-  - Aqui se encuentran los archivos que se renderizan en el navegador, es decir, la interfaz que se encuentra escrita en lenguaje de marcado HTML. El renderizado de la plantilla se realiza mediante un mini motor que he creado.
-- **Index**
-  - Archivo principal que define la página que se muestra de forma predeterminada al acceder a la pagina o sitio web.
+- **PHP**: Lenguaje de programación para la lógica de backend y consumo de la API.
+- **HTML/CSS**: Estructura y estilo de la interfaz de usuario.
+- **JavaScript**: Para mejorar la interacción y hacer que la interfaz sea más dinámica.
+- **API de OpenWeather**: Fuente para obtener los datos meteorológicos.
 
-## :package: Resultados
-<p align="center">
-  <img src="https://raw.githubusercontent.com/samoel-andres/tarjeta-clima/main/public/evidence/weather.JPG" alt="Tarjeta del clima">
-</p>
+## Instalación
 
-## :pen: Conclusión
+### Requisitos
 
-A pesar de que es un proyecto sencillo, es una forma de seguir practicando mi destreza y conocimiento sobre las tecnologías que he usado. El resultado final es muy satisfactorio y agradable.
+- PHP 7.0 o superior.
+- Composer para gestionar las dependencias.
+- Un servidor web como Apache o Nginx.
+- Acceso a la API de OpenWeather (requiere una clave de API).
+
+### Pasos para ejecutar el proyecto
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone https://github.com/samoel-andres/tarjeta-clima.git
+   ```
+
+2. **Instala las dependencias de PHP (si es necesario):**
+
+   ```bash
+   composer install
+   ```
+
+3. **Obtén una clave de API de OpenWeather:**
+
+   - Regístrate en [OpenWeather](https://openweathermap.org/api).
+   - Consigue una clave de API para realizar las solicitudes.
+
+4. **Configura tu clave de API:**
+
+   - Crea un archivo `.env` en la raíz del proyecto.
+   - Añade la clave de API de OpenWeather de la siguiente manera:
+
+   ```
+   OPENWEATHER_API_KEY=tu_clave_aqui
+   ```
+
+5. **Ejecuta el proyecto en tu servidor local:**
+
+   Si estás utilizando Apache o Nginx, asegúrate de que el servidor apunte a la carpeta del proyecto.
+
+6. **Accede a la aplicación:**
+
+   Abre tu navegador y ve a `http://localhost/tarjeta-clima`.
+
+## Uso
+
+1. Al cargar la página, se muestra el clima actual de una ciudad predeterminada (ej. Londres).
+2. Puedes cambiar la ciudad ingresando el nombre de una nueva ciudad y obtener el clima en tiempo real.
+3. Se visualiza el pronóstico para los próximos días con detalles como la temperatura, humedad, velocidad del viento, etc.
