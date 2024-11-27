@@ -13,7 +13,6 @@
 - Muestra el clima actual de una ubicación especificada.
 - Muestra el pronóstico meteorológico de los próximos días.
 - Información detallada: temperatura, humedad, viento, visibilidad, y descripción del clima.
-- Cambio de ubicación: permite cambiar la ciudad para ver el clima en tiempo real de diferentes lugares.
   
 ## Tecnologías Utilizadas
 
@@ -70,5 +69,4 @@
 ## Uso
 
 1. Al cargar la página, se muestra el clima actual de una ciudad predeterminada (ej. Londres).
-2. Puedes cambiar la ciudad ingresando el nombre de una nueva ciudad y obtener el clima en tiempo real.
-3. Se visualiza el pronóstico para los próximos días con detalles como la temperatura, humedad, velocidad del viento, etc.
+2. Se visualiza el pronóstico para los próximos días con detalles como la temperatura, humedad, velocidad del viento, etc.
